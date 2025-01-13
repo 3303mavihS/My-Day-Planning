@@ -1,0 +1,249 @@
+/* Body CSS */
+body {
+  margin: 0;
+  padding: 0;
+  overflow-y: inherit;
+}
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #333333;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #333333;
+}
+/* Header CSS */
+.header-div {
+  width: 80%;
+  margin: 0px auto;
+  border-bottom: 1px solid #333333;
+  position: fixed;
+  right: 10%;
+  background-color: white;
+  padding-top: 30px;
+}
+.header-div .logo-title-div {
+  display: flex;
+  align-items: center;
+}
+.header-div .logo-title-div img {
+  height: 35px;
+  margin-right: 10px;
+}
+.header-div .logo-title-div p {
+  font-size: 20px;
+  font-weight: bold;
+}
+/* Footer CSS */
+.footer-div {
+  width: 80%;
+  margin: 0px auto;
+  padding: 15px 0;
+  border-top: 1px solid #333333;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  right: 10%;
+  bottom: 0;
+  background-color: #ffffff;
+}
+.footer-div p {
+  font-size: 18px;
+  font-weight: bold;
+}
+/******** Main CSS ********/
+.main-div {
+  width: 70%;
+  margin: 0 auto;
+  min-height: 1000px;
+  padding: 140px 0 100px 0;
+}
+.data-div {
+  border: 1px solid #333333;
+  border-radius: 15px;
+  padding: 50px;
+}
+.input-div {
+  border: 1px solid #333333;
+  border-radius: 15px;
+  padding: 50px;
+  margin-bottom: 30px;
+}
+/* Task Div CSS */
+.table-div .sno {
+  width: 10%;
+  display: inline-block;
+}
+.table-div .task {
+  width: 45%;
+  display: inline-block;
+}
+.table-div .time {
+  text-align: center;
+  width: 25%;
+  display: inline-block;
+}
+.table-div .action {
+  text-align: center;
+  width: 20%;
+  display: inline-block;
+}
+
+.table-content-div{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.table-content-div p {
+  border: 1px solid #333333;
+  padding: 15px 15px;
+  border-radius: 10px;
+}
+.table-content-div .action button {
+  background: none;
+  font-size: 15px;
+  font-weight: bold;
+  border: 1px solid #333333;
+  border-radius: 8px;
+  padding: 10px 15px;
+  display: flex;
+  cursor: pointer;
+}
+.btnIcon{
+  font-size: 22px;
+}
+/* Task Form CSS */
+.form-div form {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.form-div form input {
+  width: 65%;
+  font-size: 18px;
+  padding: 0 15px;
+  border: 1px solid #333333;
+  border-radius: 8px;
+}
+.form-div form select {
+  width: 15%;
+  font-size: 18px;
+  padding: 0px;
+  border: 1px solid #ffffff;
+  background-color: #ffffff;
+  border-radius: 8px;
+}
+.form-div form select:focus-visible {
+  border-color: #ffffff;
+}
+.form-div form button {
+  background: none;
+  font-size: 15px;
+  font-weight: bold;
+  border: 1px solid #333333;
+  border-radius: 8px;
+  padding: 10px 15px;
+  cursor: pointer;
+}
+.list-item{
+  border: 1px solid #333333;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px 20px;
+}
+.list-item .content-div{
+  width: 70%;
+}
+.list-item .time{
+  width: 15%;
+}
+.list-item .action{
+  width: 15%;
+  display: flex;
+  gap:20px;
+  justify-content: center;
+}
+.table-title-div {
+  border: none;
+  margin-bottom: 30px;
+}
+.table-title-div  {
+  font-size: 16px;
+  font-weight: bold;
+  padding: 0 15px;
+}
+
+/* Mobile Responsive css starts here */
+@media only screen and (max-width:480px) {
+  .header-div{
+    width: 100%;
+    right: 0;
+    padding: 0;
+  }
+  .header-div .logo-title-div{
+    padding: 0 20px;
+  }
+  .main-div{
+    width: calc(100% - 40px);
+    padding: 85px 0px;
+  }
+  .input-div{
+    padding: 20px;
+  }
+  .form-div form{
+    flex-direction: column;
+    gap:20px;
+  }
+  .form-div form input{
+    width: calc(100% - 32px);
+    padding: 12px 15px;
+  }
+  .form-div form select{
+    width: 100%;
+  }
+  .data-div{
+    padding: 20px;
+  }
+  .footer-div{
+    width: calc(100% - 40px);
+    right: 0;
+    padding: 0px 20px;
+  }
+  .table-title-div{
+    display: none;
+  }
+
+  .list-item{
+    flex-direction: column;
+    gap: 15px;
+  }
+  .list-item .content-div{
+    width: 100%;
+  }
+  .list-item .time{
+    width: 100%;
+    text-align: left;
+  }
+  .list-item .action{
+    width: 100%;
+    display: flex;
+    gap:20px;
+    justify-content: start;
+  }
+}
+
+/* Mobile Responsive css ends here */
