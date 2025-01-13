@@ -1,70 +1,83 @@
-# Getting Started with Create React App
+# My Day Planning 🗓️
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**My Day Planning** is a simple, intuitive, and minimalistic day planner built with React. It helps users organize their daily tasks efficiently while maintaining a clean and user-friendly interface. The app supports persistent task storage, allowing users to revisit and manage their tasks seamlessly.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## Live View :
 
-### `npm start`
+Link : https://my-day-planning.netlify.app/
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## ✨ Features
 
-### `npm test`
+- **Minimalistic Design**: Clean and distraction-free interface for easy task management.
+- **Task Management**: Add, edit, mark as completed, or delete tasks effortlessly.
+- **Persistent Data**: Tasks are stored locally using browser storage, ensuring they remain available between sessions.
+- **Responsive Design**: Works flawlessly on desktops, tablets, and mobile devices.
+- **Real-Time Updates**: Updates dynamically as you interact with the app.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## 🛠️ Technologies Used
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **React**: For building the UI components.
+- **React Hooks**: To handle component state and side effects.
+- **Local Storage**: To persist tasks between sessions without relying on external databases.
+- **CSS Modules**: For clean and modular styling.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 📸 Screenshots
 
-### `npm run eject`
+**Mobile View**
+<img src="./src/assets/images/iPhone-12-PRO-localhost.png" alt="Mobile View" height="400px" text-align="center">
+**Desktop View**
+<img src="./src/assets/images/Macbook-Air-localhost.png" alt="Desktop View" height="400px">
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+---
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 🚀 Getting Started
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Follow these steps to run the project locally:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Prerequisites
 
-## Learn More
+Ensure you have the following installed:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- [Node.js](https://nodejs.org/) (LTS version recommended)
+- npm (comes with Node.js)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Installation
 
-### Code Splitting
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/your-username/my-day-planning.git
+   ```
+2. Navigate to the project directory
+   ```bash
+   cd my-day-planning
+   ```
+3. Install the dependencies:
+   ```bash
+   Copy code
+   ```
+4. Start the development server:
+   ```bash
+   npm start
+   ```
+5. Open your browser and visit http://localhost:3000 to view the app.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### 🤝 Contributing
 
-### Analyzing the Bundle Size
+Contributions are welcome! If you have suggestions or find issues, feel free to:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Open an issue on the Issues page.
+Fork the repo and submit a pull request.
 
-### Making a Progressive Web App
+### ⭐ If you find this project helpful, consider giving it a star! ⭐
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```bash
+   Let me know if you need further edits! 😊
+```
