@@ -12,13 +12,15 @@ const Main = ({
       <div className="input-div">
         <TaskForm handleTaskAfterInput={handleTaskAfterInput} />
       </div>
-      <div className="data-div">
-        <TaskList
-          tasks={tasks}
-          handleDeleteAction={handleDeleteAction}
-          handleDoneAction={handleDoneAction}
-        />
-      </div>
+      {tasks.length !== 0 && (
+        <div className="data-div">
+          <TaskList
+            tasks={tasks}
+            handleDeleteAction={handleDeleteAction}
+            handleDoneAction={handleDoneAction}
+          />
+        </div>
+      )}
     </div>
   );
 };
